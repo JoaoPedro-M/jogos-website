@@ -1,0 +1,132 @@
+{
+    "Jogos": [
+        {
+            "Nome": "Subway Surfers",
+            "Tipo": "Action",
+            "Endereco da Imagem": "./img/new1.jpg",
+            "Classificacao": 4.7,
+            "Eh destaque": "nao",
+            "Eh novo": "sim"
+        },
+        {
+            "Nome": "Call of Duty: Mobile",
+            "Tipo": "Action",
+            "Endereco da Imagem": "./img/new2.jpg",
+            "Classificacao": 4.7,
+            "Eh destaque": "nao",
+            "Eh novo": "sim"
+        }, 
+        {
+            "Nome": "Free Guy",
+            "Tipo": "Action",
+            "Endereco da Imagem": "./img/new3.jpg",
+            "Classificacao": 4.7,
+            "Eh destaque": "nao",
+            "Eh novo": "sim"
+        }, 
+        {
+            "Nome": "Clash Royale",
+            "Tipo": "Action",
+            "Endereco da Imagem": "./img/new4.jpg",
+            "Classificacao": 4.7,
+            "Eh destaque": "nao",
+            "Eh novo": "sim"
+        }, 
+        {
+            "Nome": "Minecraft",
+            "Tipo": "Action",
+            "Endereco da Imagem": "./img/new5.png",
+            "Classificacao": 4.7,
+            "Eh destaque": "nao",
+            "Eh novo": "sim"
+        }, 
+        {
+            "Nome": "PUBG",
+            "Tipo": "Action",
+            "Endereco da Imagem": "./img/new6.png",
+            "Classificacao": 4.7,
+            "Eh destaque": "nao",
+            "Eh novo": "sim"
+        }, 
+        {
+            "Nome": "Fortnite",
+            "Tipo": "Action",
+            "Endereco da Imagem": "./img/new7.png",
+            "Classificacao": 4.7,
+            "Eh destaque": "nao",
+            "Eh novo": "sim"
+        }, 
+        {
+            "Nome": "Marvel of Champions",
+            "Tipo": "Action",
+            "Endereco da Imagem": "./img/new8.jpg",
+            "Classificacao": 4.7,
+            "Eh destaque": "nao",
+            "Eh novo": "sim"
+        } , 
+        {
+            "Nome": "Cyberpunk 2077",
+            "Tipo": "Action",
+            "Endereco da Imagem": "./img/trending1.webp",
+            "Classificacao": 4.7,
+            "Eh destaque": "sim",
+            "Eh novo": "nao"
+        } , 
+        {
+            "Nome": "Battlefield 2042",
+            "Tipo": "Action",
+            "Endereco da Imagem": "./img/trending2.jpg",
+            "Classificacao": 4.7,
+            "Eh destaque": "sim",
+            "Eh novo": "nao"
+        } , 
+        {
+            "Nome": "Assassin's Creed",
+            "Tipo": "Action",
+            "Endereco da Imagem": "./img/trending3.jpg",
+            "Classificacao": 4.7,
+            "Eh destaque": "sim",
+            "Eh novo": "nao"
+        } , 
+        {
+            "Nome": "Ghost of Tsushima",
+            "Tipo": "Action",
+            "Endereco da Imagem": "./img/trending4.jpg",
+            "Classificacao": 4.7,
+            "Eh destaque": "sim",
+            "Eh novo": "nao"
+        } , 
+        {
+            "Nome": "GTA V",
+            "Tipo": "Action",
+            "Endereco da Imagem": "./img/trending5.png",
+            "Classificacao": 4.7,
+            "Eh destaque": "sim",
+            "Eh novo": "nao"
+        } , 
+        {
+            "Nome": "Dying Light 2",
+            "Tipo": "Action",
+            "Endereco da Imagem": "./img/trending6.jpg",
+            "Classificacao": 4.7,
+            "Eh destaque": "sim",
+            "Eh novo": "nao"
+        } , 
+        {
+            "Nome": "Halo Infinite",
+            "Tipo": "Action",
+            "Endereco da Imagem": "./img/trending7.png",
+            "Classificacao": 4.7,
+            "Eh destaque": "sim",
+            "Eh novo": "nao"
+        } , 
+        {
+            "Nome": "Resident Evil Village",
+            "Tipo": "Action",
+            "Endereco da Imagem": "./img/trending8.png",
+            "Classificacao": 4.7,
+            "Eh destaque": "sim",
+            "Eh novo": "nao"
+        } 
+    ]
+}

@@ -1,14 +1,15 @@
-let menu = document.querySelector('.menu-icon');
-let navbar = document.querySelector('.menu');
+menusao = document.querySelector('.menu-icon');
+navbar = document.querySelector('.menu');
 
-menu.onclick = () => {
+menusao.onclick = () => {
   navbar.classList.toggle('active');
-  menu.classList.toggle('move');
+  menusao.classList.toggle('move');
   bell.classList.remove('active');
 }
 
+
 // Notfication
-let bell = document.querySelector('.notification');
+bell = document.querySelector('.notification');
 
 document.querySelector('#bell-icon').onclick = () =>{
   bell.classList.toggle('active');
@@ -16,7 +17,7 @@ document.querySelector('#bell-icon').onclick = () =>{
 
 
 // Swiper
-var swiper = new Swiper(".trending-content", {
+swiper = new Swiper(".trending-content", {
   slidesPerView: 1,
   spaceBetween: 10,
   pagination: {

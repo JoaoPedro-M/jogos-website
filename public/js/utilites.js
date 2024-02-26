@@ -8,7 +8,7 @@ menusao.onclick = () => {
 }
 
 
-// Notfication
+// Notification
 bell = document.querySelector('.notification');
 
 document.querySelector('#bell-icon').onclick = () =>{

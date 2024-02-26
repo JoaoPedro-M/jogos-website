@@ -1,132 +1,228 @@
 {
     "Jogos": [
         {
+            "id": 0,
             "Nome": "Subway Surfers",
             "Tipo": "Action",
-            "Endereco da Imagem": "./img/new1.jpg",
+            "Endereco da Imagem": "/img/new1.jpg",
             "Classificacao": 4.7,
             "Eh destaque": "nao",
-            "Eh novo": "sim"
+            "Eh novo": "sim",
+            "Descricao": "Subway Surfers é um jogo de ação sem fim, desenvolvido e publicado pela Kiloo & SYBO Games. O jogador assume o papel de um adolescente comum (ou, em raras ocasiões, um adulto jovem ou um garoto mais velho) vandalizando um trem do metrô, e é pego pelo inspetor e seu cachorro.",
+            "Link para Download": "",
+            "Screenshot 1": "/img/screenshots1.jpg",
+            "Screenshot 2": "/img/screenshots2.jpg",
+            "Screenshot 3": "/img/screenshots3.jpg"
         },
         {
+            "id": 1,
             "Nome": "Call of Duty: Mobile",
             "Tipo": "Action",
             "Endereco da Imagem": "./img/new2.jpg",
             "Classificacao": 4.7,
             "Eh destaque": "nao",
-            "Eh novo": "sim"
+            "Eh novo": "sim",
+            "Descricao": "",
+            "Link para Download": "",
+            "Screenshot 1": "",
+            "Screenshot 2": "",
+            "Screenshot 3": ""
         }, 
         {
+            "id": 2,
             "Nome": "Free Guy",
             "Tipo": "Action",
             "Endereco da Imagem": "./img/new3.jpg",
             "Classificacao": 4.7,
             "Eh destaque": "nao",
-            "Eh novo": "sim"
+            "Eh novo": "sim",
+            "Descricao": "",
+            "Link para Download": "",
+            "Screenshot 1": "",
+            "Screenshot 2": "",
+            "Screenshot 3": ""
         }, 
         {
+            "id": 3,
             "Nome": "Clash Royale",
             "Tipo": "Action",
             "Endereco da Imagem": "./img/new4.jpg",
             "Classificacao": 4.7,
             "Eh destaque": "nao",
-            "Eh novo": "sim"
+            "Eh novo": "sim",
+            "Descricao": "",
+            "Link para Download": "",
+            "Screenshot 1": "",
+            "Screenshot 2": "",
+            "Screenshot 3": ""
         }, 
         {
+            "id": 4,
             "Nome": "Minecraft",
             "Tipo": "Action",
             "Endereco da Imagem": "./img/new5.png",
             "Classificacao": 4.7,
             "Eh destaque": "nao",
-            "Eh novo": "sim"
+            "Eh novo": "sim",
+            "Descricao": "",
+            "Link para Download": "",
+            "Screenshot 1": "",
+            "Screenshot 2": "",
+            "Screenshot 3": ""
         }, 
         {
+            "id": 5,
             "Nome": "PUBG",
             "Tipo": "Action",
             "Endereco da Imagem": "./img/new6.png",
             "Classificacao": 4.7,
             "Eh destaque": "nao",
-            "Eh novo": "sim"
+            "Eh novo": "sim",
+            "Descricao": "",
+            "Link para Download": "",
+            "Screenshot 1": "",
+            "Screenshot 2": "",
+            "Screenshot 3": ""
         }, 
         {
+            "id": 6,
             "Nome": "Fortnite",
             "Tipo": "Action",
             "Endereco da Imagem": "./img/new7.png",
             "Classificacao": 4.7,
             "Eh destaque": "nao",
-            "Eh novo": "sim"
+            "Eh novo": "sim",
+            "Descricao": "",
+            "Link para Download": "",
+            "Screenshot 1": "",
+            "Screenshot 2": "",
+            "Screenshot 3": ""
         }, 
         {
+            "id": 7,
             "Nome": "Marvel of Champions",
             "Tipo": "Action",
             "Endereco da Imagem": "./img/new8.jpg",
             "Classificacao": 4.7,
             "Eh destaque": "nao",
-            "Eh novo": "sim"
+            "Eh novo": "sim",
+            "Descricao": "",
+            "Link para Download": "",
+            "Screenshot 1": "",
+            "Screenshot 2": "",
+            "Screenshot 3": ""
         } , 
         {
+            "id": 8,
             "Nome": "Cyberpunk 2077",
             "Tipo": "Action",
             "Endereco da Imagem": "./img/trending1.webp",
             "Classificacao": 4.7,
             "Eh destaque": "sim",
-            "Eh novo": "nao"
+            "Eh novo": "nao",
+            "Descricao": "",
+            "Link para Download": "",
+            "Screenshot 1": "",
+            "Screenshot 2": "",
+            "Screenshot 3": ""
         } , 
         {
+            "id": 9,
             "Nome": "Battlefield 2042",
             "Tipo": "Action",
             "Endereco da Imagem": "./img/trending2.jpg",
             "Classificacao": 4.7,
             "Eh destaque": "sim",
-            "Eh novo": "nao"
+            "Eh novo": "nao",
+            "Descricao": "",
+            "Link para Download": "",
+            "Screenshot 1": "",
+            "Screenshot 2": "",
+            "Screenshot 3": ""
         } , 
         {
+            "id": 10,
             "Nome": "Assassin's Creed",
             "Tipo": "Action",
             "Endereco da Imagem": "./img/trending3.jpg",
             "Classificacao": 4.7,
             "Eh destaque": "sim",
-            "Eh novo": "nao"
+            "Eh novo": "nao",
+            "Descricao": "",
+            "Link para Download": "",
+            "Screenshot 1": "",
+            "Screenshot 2": "",
+            "Screenshot 3": ""
         } , 
         {
+            "id": 11,
             "Nome": "Ghost of Tsushima",
             "Tipo": "Action",
             "Endereco da Imagem": "./img/trending4.jpg",
             "Classificacao": 4.7,
             "Eh destaque": "sim",
-            "Eh novo": "nao"
+            "Eh novo": "nao",
+            "Descricao": "",
+            "Link para Download": "",
+            "Screenshot 1": "",
+            "Screenshot 2": "",
+            "Screenshot 3": ""
         } , 
         {
+            "id": 12,
             "Nome": "GTA V",
             "Tipo": "Action",
             "Endereco da Imagem": "./img/trending5.png",
             "Classificacao": 4.7,
             "Eh destaque": "sim",
-            "Eh novo": "nao"
+            "Eh novo": "nao",
+            "Descricao": "",
+            "Link para Download": "",
+            "Screenshot 1": "",
+            "Screenshot 2": "",
+            "Screenshot 3": ""
         } , 
         {
+            "id": 13,
             "Nome": "Dying Light 2",
             "Tipo": "Action",
             "Endereco da Imagem": "./img/trending6.jpg",
             "Classificacao": 4.7,
             "Eh destaque": "sim",
-            "Eh novo": "nao"
+            "Eh novo": "nao",
+            "Descricao": "",
+            "Link para Download": "",
+            "Screenshot 1": "",
+            "Screenshot 2": "",
+            "Screenshot 3": ""
         } , 
         {
+            "id": 14,
             "Nome": "Halo Infinite",
             "Tipo": "Action",
             "Endereco da Imagem": "./img/trending7.png",
             "Classificacao": 4.7,
             "Eh destaque": "sim",
-            "Eh novo": "nao"
+            "Eh novo": "nao",
+            "Descricao": "",
+            "Link para Download": "",
+            "Screenshot 1": "",
+            "Screenshot 2": "",
+            "Screenshot 3": ""
         } , 
         {
+            "id": 15,
             "Nome": "Resident Evil Village",
             "Tipo": "Action",
             "Endereco da Imagem": "./img/trending8.png",
             "Classificacao": 4.7,
             "Eh destaque": "sim",
-            "Eh novo": "nao"
+            "Eh novo": "nao",
+            "Descricao": "",
+            "Link para Download": "",
+            "Screenshot 1": "",
+            "Screenshot 2": "",
+            "Screenshot 3": ""
         } 
     ]
 }

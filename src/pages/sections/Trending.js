@@ -1,7 +1,9 @@
-import data from "../jogos.json";
+import data from "../../jogos.json";
+import { Link } from "react-router-dom";
 
 function Slide(props) {
     if (props.Eh_destaque === "sim") {
+        let link = "/download/" + props.id
         return (
             <div class="swiper-slide">
                 <div class="box">
@@ -14,7 +16,7 @@ function Slide(props) {
                                 <i class='bx bxs-star' ></i>
                                 <span>{props.Classificacao}</span>
                             </div>
-                            <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+                            <Link to={link} class="box-btn"><i class='bx bx-down-arrow-alt' ></i></Link>
                         </div>
                     </div>
                 </div>
@@ -37,7 +39,7 @@ function Trending() {
             <div class="swiper-wrapper">
                 
                 {data.Jogos.map((jogos) => {
-                return <Slide key={jogos.Nome} Nome={jogos.Nome} Tipo={jogos.Tipo} Imagem={jogos["Endereco da Imagem"]} Classificacao={jogos.Classificacao} Eh_destaque={jogos["Eh destaque"]}/>
+                return <Slide key={jogos.id} id={jogos.id} Nome={jogos.Nome} Tipo={jogos.Tipo} Imagem={jogos["Endereco da Imagem"]} Classificacao={jogos.Classificacao} Eh_destaque={jogos["Eh destaque"]}/>
             })}
                 
             </div>

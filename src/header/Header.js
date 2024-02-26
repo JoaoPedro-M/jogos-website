@@ -1,4 +1,5 @@
 import Menu from "./Menu";
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -7,7 +8,7 @@ function Header() {
         {/* Nav */}
         <div class="nav container">
             {/* Logo */}
-            <a href="#" class="logo">Torrent <span>Jogos</span></a>
+            <Link to="/" class="logo">Torrent <span>Jogos</span></Link>
             {/* Nav Icons */}
             <div class="nav-icons">
                 <i class='bx bx-bell bx-tada' id="bell-icon"><span></span></i>
@@ -17,7 +18,9 @@ function Header() {
                     <div class="line3"></div>
                 </div>
             </div>
+            
             <Menu/>
+
             {/* Notification */}
             <div class="notification">
                 <div class="notification-box">

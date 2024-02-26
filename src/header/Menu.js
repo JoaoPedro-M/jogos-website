@@ -1,14 +1,17 @@
+import {Link} from 'react-router-dom';
+
 function Menu() {
     return (
     <div> 
         {/* Menu */}
         <div class="menu">
-            <img src="../img/menu.png" alt=""></img>
+            <img src="/img/menu.png" alt="CyberPunk"></img>
             <div class="navbar">
-                <li><a href="#">Início</a></li>
-                <li><a href="#trending">Mais Baixados</a></li>
-                <li><a href="#new">Novos Jogos</a></li>
-                <li><a href="#contact">Contato</a></li>
+                
+                <li><Link to="/">Início</Link></li>
+                {/* <li><Link to="/trending">Mais Baixados</Link></li>
+                <li><Link to="/new">Novos Jogos</Link></li> */}
+               
             </div>
         </div>
     </div>

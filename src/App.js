@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 
 import { Route, Routes, Link } from 'react-router-dom';
 import Downloads from "./pages/Downloads";
+import Jogos from "./pages/Jogos";
 
 function App() {
 
@@ -35,10 +36,11 @@ function App() {
 
 
 
-    
+
     <Routes>
       <Route path="/" index Component={Home}/>
       <Route path="/download/:id" Component={Downloads}/>
+      <Route path="/jogos" Component={Jogos}/>
       {/* <Route path="/new" Component={Downloads}/>
       <Route path="/trending" Component={Downloads}/> */}
     </Routes>

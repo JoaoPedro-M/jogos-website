@@ -4,6 +4,7 @@ import App from './App';
 
 import './css/style.css';
 import './css/swiper-bundle.min.css';
+import './css/search-bar.css';
 import { BrowserRouter } from 'react-router-dom';
 
 

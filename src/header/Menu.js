@@ -9,6 +9,7 @@ function Menu() {
             <div class="navbar">
                 
                 <li><Link to="/">Início</Link></li>
+                <li><Link to="/jogos">Jogos</Link></li>
                 {/* <li><Link to="/trending">Mais Baixados</Link></li>
                 <li><Link to="/new">Novos Jogos</Link></li> */}
                

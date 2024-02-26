@@ -1,0 +1,58 @@
+/* SearchBar.css */
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FA5353;
+  border-radius: 5px 0 0 5px;
+  margin-right: 0; /* Removendo a margem direita */
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #FA5353;
+  color: #fff;
+  border: 2px solid #FA5353;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  outline: none;
+  height: 49px;
+}
+
+.search-button>img {
+  height: 25px;
+}
+
+button:hover {
+  background-color: #B2212B;
+  border-color: #B2212B;
+}
+
+/* Adicionando um efeito de transição suave */
+input, button {
+  transition: all 0.3s ease;
+}
+
+.jogos {
+  justify-content: center;
+}
+
+.jogos>h2 {
+  font-size: 35px;
+}
+
+.next-page button {
+  background: var(--main-color);
+  padding: 12px 20px;
+  color: var(--text-color);
+  letter-spacing: 1px;
+  font-weight: 500;
+}

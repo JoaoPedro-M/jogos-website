@@ -53,8 +53,8 @@ Execute o seguinte comando para criar uma versão de produção do seu aplicativ
 
 ~~~bash
 npm run build
-Isso criará uma pasta build no seu diretório do projeto.
 ~~~
+Isso criará uma pasta build no seu diretório do projeto.
 
 2. Servir a Aplicação:
 
@@ -62,14 +62,12 @@ Você pode usar diversas ferramentas para servir a aplicação, como o serve. In
 
 ~~~bash
 npm install -g serve
-Em seguida, execute o seguinte comando na pasta build:
 ~~~
-
+Em seguida, execute o seguinte comando na pasta build:
 ~~~bash
 serve -s
-Isso iniciará um servidor na porta padrão 5000.
 ~~~
-
+Isso iniciará um servidor na porta padrão 5000.
 3. Configurações Adicionais:
 
 Certifique-se de configurar corretamente o servidor para tratar as rotas da sua aplicação, redirecionando qualquer solicitação para a página principal. Isso é necessário para garantir que as rotas do React funcionem corretamente.
@@ -77,6 +75,8 @@ Certifique-se de configurar corretamente o servidor para tratar as rotas da sua 
 4. Implementação:
 
 Implemente sua aplicação em um servidor web ou em uma plataforma de hospedagem, como Netlify, Vercel, ou GitHub Pages, seguindo as instruções específicas da plataforma escolhida.
+
+Caso necessite de auxílio, o desenvolvedor que fez esse site pode te auxiliar.
 
 ## Construído Com
 React - Biblioteca JavaScript para criar interfaces de usuário.

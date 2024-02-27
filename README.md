@@ -6,10 +6,10 @@ Certifique-se de ter o Node.js instalado em sua máquina antes de começar. Voc�
 
 ## Instalação
 1. Clone este repositório em sua máquina local:
-~~~javascript
+~~~bash
 
 git clone https://github.com/seu-usuario/nome-do-projeto.git
-~~~javascript
+~~~
 2. Navegue até o diretório do projeto:
 bash
 Copy code

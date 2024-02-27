@@ -1,0 +1,46 @@
+.filter-sidebar {
+    position: fixed;
+    top: 250px; /* ou qualquer valor desejado para o espaçamento do topo */
+    right: 6%; /* ou qualquer valor desejado para o espaçamento da esquerda */
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+@media (max-width: 768px) {
+    .filter-sidebar {
+        position: relative;
+        width: 100%;
+        right: auto;
+        top: 0;
+        margin-bottom: 15px;
+    }
+}
+
+  
+
+.filter-sidebar h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.filter-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.filter-sidebar li {
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    transition: background-color 0.3s;
+}
+
+.filter-sidebar li:hover,
+.filter-sidebar li.active {
+    background-color: #ddd;
+}
+  

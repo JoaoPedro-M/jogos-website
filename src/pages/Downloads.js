@@ -9,9 +9,9 @@ function Screenshot({ filtrados }) {
     )
   } else {
     return (
-      <div class="screenshots container">
+      <div className="screenshots container">
       <h2>Imagens do Jogo</h2>
-      <div class="screenshots-content">
+      <div className="screenshots-content">
         <img src={filtrados['Screenshot 1']} alt={ filtrados.Nome } />
         <img src={filtrados['Screenshot 2']} alt={ filtrados.Nome } />
         <img src={filtrados['Screenshot 3']} alt={ filtrados.Nome } />
@@ -33,11 +33,11 @@ function Downloads() {
   })[0]
     return (
       <div> 
-        <div class="video-container container">
+        <div className="video-container container">
           <iframe width="1080" height="520" src="https://www.youtube.com/embed/QXeoxQ9WBc4?si=RPIEVYAu7eM0NbRh" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
         </div>
         {/*  About  */}
-        <div class="about container">
+        <div className="about container">
           <h2>{filtrados.Nome}</h2>
           <p>{filtrados.Descricao}
           </p>
@@ -46,9 +46,9 @@ function Downloads() {
         <Screenshot filtrados={filtrados}/>
         
         {/* Download */} 
-        <div class="download">
+        <div className="download">
           <h2>Download Torrent</h2>
-          <div class="download-links">
+          <div className="download-links">
               <a href={ filtrados['Link para Download']} download="jogo_torrent">Torrent</a>
           </div>
         </div>

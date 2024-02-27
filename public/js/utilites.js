@@ -1,5 +1,15 @@
 menusao = document.querySelector('.menu-icon');
 navbar = document.querySelector('.menu');
+barra = document.querySelector('.navbar');
+// Notification
+bell = document.querySelector('.notification');
+
+barra.onclick = () => {
+  navbar.classList.toggle('active');
+  menusao.classList.toggle('move');
+  bell.classList.remove('active');
+} 
+
 
 menusao.onclick = () => {
   navbar.classList.toggle('active');
@@ -8,8 +18,7 @@ menusao.onclick = () => {
 }
 
 
-// Notification
-bell = document.querySelector('.notification');
+
 
 document.querySelector('#bell-icon').onclick = () =>{
   bell.classList.toggle('active');

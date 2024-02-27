@@ -6,29 +6,29 @@ function Header() {
     <div> 
         <header>
         {/* Nav */}
-        <div class="nav container">
+        <div className="nav container">
             {/* Logo */}
-            <Link to="/" class="logo">Torrent <span>Jogos</span></Link>
+            <Link to="/" className="logo">Torrent <span>Jogos</span></Link>
             {/* Nav Icons */}
-            <div class="nav-icons">
-                <i class='bx bx-bell bx-tada' id="bell-icon"><span></span></i>
-                <div class="menu-icon">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
+            <div className="nav-icons">
+                <i className='bx bx-bell bx-tada' id="bell-icon"><span></span></i>
+                <div className="menu-icon">
+                    <div className="line1"></div>
+                    <div className="line2"></div>
+                    <div className="line3"></div>
                 </div>
             </div>
             
             <Menu/>
 
             {/* Notification */}
-            <div class="notification">
-                <div class="notification-box">
-                    <i class='bx bxs-check-circle' ></i>
+            <div className="notification">
+                <div className="notification-box">
+                    <i className='bx bxs-check-circle' ></i>
                     <p>Servidores ON! Baixe seus jogos favoritos de GRAÇA!</p>
                 </div>
-                <div class="notification-box box-color">
-                    <i class='bx bxs-x-circle' ></i>
+                <div className="notification-box box-color">
+                    <i className='bx bxs-x-circle' ></i>
                 </div>
             </div>
 

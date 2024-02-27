@@ -4,9 +4,9 @@ function Menu() {
     return (
     <div> 
         {/* Menu */}
-        <div class="menu">
+        <div className="menu">
             <img src="/img/menu.png" alt="CyberPunk"></img>
-            <div class="navbar">
+            <div className="navbar">
                 
                 <li><Link to="/">Início</Link></li>
                 <li><Link to="/jogos">Jogos</Link></li>

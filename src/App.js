@@ -14,8 +14,8 @@ function App() {
   return (
     <div>
       {/* Custom Scroll Bar */}
-    <div class="progress">
-        <div class="progress-bar" id="scroll-bar"></div>
+    <div className="progress">
+        <div className="progress-bar" id="scroll-bar"></div>
     </div>
 
     {/* Header */}
@@ -23,11 +23,11 @@ function App() {
   
     {/* Home Section Start */}
     
-    <section class="home container" id="home">
+    <section className="home container" id="home">
         <img src="/img/home.png" alt=""></img>
-        <div class="home-text">
+        <div className="home-text">
             <h1>downloads <br/>ILIMITADOS</h1>
-            <Link to="/" class="btn">seu site numero 1</Link>
+            <Link to="/" className="btn">seu site numero 1</Link>
         </div>
     </section>
     
@@ -50,8 +50,8 @@ function App() {
 
     {/* Copyright */}
 
-    <div class="copyright container">
-        <Link to="/" class="logo">Torrent <span>Jogos</span></Link>
+    <div className="copyright container">
+        <Link to="/" className="logo">Torrent <span>Jogos</span></Link>
         <p>&#169; Torrent Jogos All Right Reserved 2024</p>
     </div>
 

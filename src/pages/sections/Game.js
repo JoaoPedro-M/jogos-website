@@ -5,17 +5,17 @@ function Game(props) {
     
     let link = "/download/" + props.id;
     return (
-    <div class="box">
+    <div className="box">
         <img src={props.Imagem} alt={props.Nome}></img>
-        <div class="box-text">
+        <div className="box-text">
             <h2>{props.Nome}</h2>
             <h3>{props.Tipo}</h3>
-            <div class="rating-download">
-                <div class="rating">
-                    <i class='bx bxs-star' ></i>
+            <div className="rating-download">
+                <div className="rating">
+                    <i className='bx bxs-star' ></i>
                     <span>{props.Classificacao}</span>
                 </div>
-                <Link to={link} class="box-btn"><i class='bx bx-down-arrow-alt'></i></Link>
+                <Link to={link} className="box-btn"><i className='bx bx-down-arrow-alt'></i></Link>
             </div>
         </div>
     </div>

@@ -6,18 +6,18 @@ Certifique-se de ter o Node.js instalado em sua máquina antes de começar. Voc�
 
 ## Instalação
 1. Clone este repositório em sua máquina local:
-~~~bash
 
+~~~bash
 git clone https://github.com/seu-usuario/nome-do-projeto.git
 ~~~
 2. Navegue até o diretório do projeto:
-bash
-Copy code
+~~~bash
 cd nome-do-projeto
+~~~
 3. Instale as dependências do projeto:
-bash
-Copy code
+~~~bash
 npm install
+~~~
 
 ## Adicionando Novos Jogos
 Se você deseja adicionar novos jogos ao projeto, siga estas etapas:
@@ -25,16 +25,22 @@ Se você deseja adicionar novos jogos ao projeto, siga estas etapas:
 1. Abra o arquivo src/jogos.json.
 
 2. Adicione um novo objeto ao array jogos, seguindo o formato existente. Certifique-se de incluir as propriedades necessárias, como "id", "nome", "descricao", "linkDownload" e "imagem". Exemplo:
-
-json
-Copy code
+~~~json
 {
-  "id": 3,
-  "nome": "Novo Jogo",
-  "descricao": "Descrição do Novo Jogo",
-  "linkDownload": "https://link-do-download.com",
-  "imagem": "nome-da-imagem.jpg"
+    "id": 15,
+    "Nome": "Resident Evil Village",
+    "Tipo": "Action",
+    "Endereco da Imagem": "./img/trending8.png",
+    "Classificacao": 4.7,
+    "Eh destaque": "sim",
+    "Eh novo": "nao",
+    "Descricao": "",
+    "Link para Download": "",
+    "Screenshot 1": "",
+    "Screenshot 2": "",
+    "Screenshot 3": ""
 }
+~~~
 3. Coloque a imagem do jogo em public/img/. Certifique-se de que o nome do arquivo da imagem corresponda ao especificado no campo "imagem" do objeto que você adicionou ao jogos.json.
 
 
@@ -45,24 +51,24 @@ Para colocar o projeto em produção, você pode seguir os seguintes passos:
 
 Execute o seguinte comando para criar uma versão de produção do seu aplicativo React:
 
-bash
-Copy code
+~~~bash
 npm run build
 Isso criará uma pasta build no seu diretório do projeto.
+~~~
 
 2. Servir a Aplicação:
 
 Você pode usar diversas ferramentas para servir a aplicação, como o serve. Instale-o globalmente com:
 
-bash
-Copy code
+~~~bash
 npm install -g serve
 Em seguida, execute o seguinte comando na pasta build:
+~~~
 
-bash
-Copy code
+~~~bash
 serve -s
 Isso iniciará um servidor na porta padrão 5000.
+~~~
 
 3. Configurações Adicionais:
 

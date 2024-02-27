@@ -223,20 +223,6 @@
             "Screenshot 1": "",
             "Screenshot 2": "",
             "Screenshot 3": ""
-        } , 
-        {
-            "id": 16,
-            "Nome": "Parnaiba",
-            "Tipo": "Fazenda",
-            "Endereco da Imagem": "./img/trending8.png",
-            "Classificacao": 10,
-            "Eh destaque": "sim",
-            "Eh novo": "nao",
-            "Descricao": "",
-            "Link para Download": "",
-            "Screenshot 1": "",
-            "Screenshot 2": "",
-            "Screenshot 3": "" 
-        }
+        } 
     ]
 }
